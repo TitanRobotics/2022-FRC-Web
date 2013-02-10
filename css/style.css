@@ -8,8 +8,8 @@
 
 body {
 	background-color:#519191;
-  background-image: url(../image/texture/bedge_grunge_transparent.png);
-  background-repeat:repeat;
+  /*background-image: url(../image/texture/bedge_grunge_transparent.png);
+  background-repeat:repeat;*/
 
 	color:#2D5151;
   font-family: "Cambria", serif;
@@ -36,6 +36,11 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 1.6rem;
+  background-color: #519191;
+  margin: 2rem 0 2rem -4rem;
+  padding: 2rem 0 2rem 4rem;
+  
+  border-radius: 0 4px 4px 0;
 }
 h2 {
   font-size: 1.4rem;
@@ -45,7 +50,10 @@ h3 {
   font-size: 1.2rem;
   font-weight: lighter;
 }
-h4 {font-size: 1.0rem;}
+h4 {
+  font-size: 1.0rem;
+  font-weight: lighter;
+}
 h5 {font-size: 0.9rem;}
 h6 {font-size: 0.8rem;}
 
@@ -61,10 +69,10 @@ a img {
   margin-bottom: 4rem;
 	background: #86B8B8;
   border-radius: 0 0 0 4px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  /*box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);*/
   
-  margin-left: 19.2rem; /*TODO: MAKE THIS SOLUTION BETTER */
-  
+  margin-top: -3rem;
+  margin-left: 16rem;
 }
 
 #content {
@@ -76,14 +84,12 @@ a img {
 
 #sidepanel {
     float: left;
-    margin-left: 2rem;
+    margin-top: 4rem;
+    margin-left: 1rem;
     overflow: hidden;
-    text-align: left;
-    width: 21rem;
-}
-
-#sidepanel #top {
     position: fixed;
+    text-align: left;
+    width: 15rem;
 }
 
 #sidepanel img {
@@ -95,7 +101,9 @@ a img {
 
 #sidepanel #slogan {
     color: #86B8B8;
+    letter-spacing: 1px;
     margin-top: 1rem;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -114,13 +122,13 @@ a img {
   list-style: none outside none;
   margin-bottom: 1px;
   padding: .7rem 0 .7rem 1.5rem;
-  text-decoration: none;
   text-transform: uppercase;
   width: 100%;
 }
 
 #sidepanel ul.menu li a {
-    color: #F0F0F0;
+  color: #F0F0F0;
+  text-decoration: none;
 }
 
 #footer {
