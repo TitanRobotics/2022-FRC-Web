@@ -132,7 +132,8 @@ a img {
 }
 
 #footer {
-  bottom: 1rem;
+  bottom: 1.5rem;
+  margin-left: 1.5rem;
   position: fixed;
 	color:#86B8B8;
 }
