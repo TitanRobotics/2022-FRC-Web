@@ -57,7 +57,7 @@ Scroller = {
 			if(h-d>i)
 				a+=Math.ceil((d-a)/Scroller.speed)
 			else
-				a+=Math.ceil((d-a-(h-d))/Scroller.speed)
+				a+=Math.ceil((h-a-i)/Scroller.speed)
 		else
 			a = a+(d-a)/Scroller.speed;
 		window.scrollTo(0,a)

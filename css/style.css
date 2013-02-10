@@ -7,19 +7,17 @@
 /* Compatibility with old browsers will not be actively sought since (1), our target audience at large will not be using them, (2), it makes code messy, (3), it takes more time, (4), old browsers need to die. */
 
 body {
-	background-color:#519191;
+	background-color:#EEE8D5;
   /*background-image: url(../image/texture/bedge_grunge_transparent.png);
   background-repeat:repeat;*/
 
-	color:#2D5151;
+	color:#586E75;
   font-family: "Cambria", serif;
   font-size: 62.5%;
 }
 
-a:link {color:#395151;}      /* unvisited link */
+a:link {color:#395151;}     /* unvisited link */
 a:visited {color:#334949;}  /* visited link */
-a:hover {color:#334949;}  /* mouse over link */
-a:active {color:#395151;}  /* selected link */ 
 
 /* margin, padding */
 
@@ -35,8 +33,9 @@ h1, h2, h3, h4, h5, h6 {
 /* font sizes */
 
 h1 {
+  color: #17758c;
   font-size: 1.6rem;
-  background-color: #519191;
+  background-color: #EEE8D5;
   margin: 2rem 0 2rem -4rem;
   padding: 2rem 0 2rem 4rem;
   
@@ -67,7 +66,7 @@ a img {
 
 #body {
   margin-bottom: 4rem;
-	background: #86B8B8;
+	background: #fdf6e3;
   border-radius: 0 0 0 4px;
   /*box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);*/
   
@@ -100,7 +99,7 @@ a img {
 }
 
 #sidepanel #slogan {
-    color: #86B8B8;
+    color: #17758c;
     letter-spacing: 1px;
     margin-top: 1rem;
     text-align: center;
@@ -113,7 +112,7 @@ a img {
 }
 
 #sidepanel ul.menu li {
-  background: none repeat scroll 0 0 #2d5151 !important;
+  background: none repeat scroll 0 0 #17758c !important;
   border-radius: 4px 0 0 4px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
 
@@ -135,7 +134,7 @@ a img {
   bottom: 1.5rem;
   margin-left: 1.5rem;
   position: fixed;
-	color:#86B8B8;
+	color:#17758c;
 }
 
 /* legal */
@@ -148,7 +147,7 @@ a img {
 /* img.pretty */
 
 img.pretty {
-    background: #e1e1e1;
+    background: white;
     border: 1px solid #CECECE;
     border-radius: 4px;
     margin: .5rem;
