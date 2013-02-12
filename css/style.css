@@ -72,6 +72,9 @@ a img {
   max-width: 50rem;
 }
 
+#generictext {
+	font-size:16px; 
+}
 /* sidepanel */
 
 #sidepanel {
