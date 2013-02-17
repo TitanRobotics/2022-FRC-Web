@@ -7,19 +7,17 @@
 /* Compatibility with old browsers will not be actively sought since (1), our target audience at large will not be using them, (2), it makes code messy, (3), it takes more time, (4), old browsers need to die. */
 
 body {
-	background-color:#519191;
-  background-image: url(../image/texture/bedge_grunge_transparent.png);
-  background-repeat:repeat;
+	background-color:#EEE8D5;
+  /*background-image: url(../image/texture/bedge_grunge_transparent.png);
+  background-repeat:repeat;*/
 
-	color:#2D5151;
+	color:#586E75;
   font-family: "Cambria", serif;
   font-size: 62.5%;
 }
 
-a:link {color:#395151;}      /* unvisited link */
+a:link {color:#395151;}     /* unvisited link */
 a:visited {color:#334949;}  /* visited link */
-a:hover {color:#334949;}  /* mouse over link */
-a:active {color:#395151;}  /* selected link */ 
 
 /* margin, padding */
 
@@ -35,17 +33,25 @@ h1, h2, h3, h4, h5, h6 {
 /* font sizes */
 
 h1 {
-  font-size: 1.6rem;
+  color: #657B83;
+  font-size: 1.8rem;
+  background-color: #EEE8D5;
+  margin: 2rem 0 2rem -4rem;
+  padding: 2rem 0 2rem 4rem;
+  
+  border-radius: 0 4px 4px 0;
 }
 h2 {
   font-size: 1.4rem;
-  font-weight: lighter;
 }
 h3 {
   font-size: 1.2rem;
   font-weight: lighter;
 }
-h4 {font-size: 1.0rem;}
+h4 {
+  font-size: 1.0rem;
+  font-weight: lighter;
+}
 h5 {font-size: 0.9rem;}
 h6 {font-size: 0.8rem;}
 
@@ -59,12 +65,12 @@ a img {
 
 #body {
   margin-bottom: 4rem;
-	background: #86B8B8;
+	background: #fdf6e3;
   border-radius: 0 0 0 4px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  /*box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);*/
   
-  margin-left: 19.2rem; /*TODO: MAKE THIS SOLUTION BETTER */
-  
+  margin-top: -3rem;
+  margin-left: 16rem;
 }
 
 #content {
@@ -75,15 +81,12 @@ a img {
 /* sidepanel */
 
 #sidepanel {
-    float: left;
-    margin-left: 2rem;
-    overflow: hidden;
-    text-align: left;
-    width: 21rem;
-}
-
-#sidepanel #top {
-    position: fixed;
+  float: left;
+  margin-top: 4rem;
+  margin-left: 1rem;
+  text-align: left;
+  width: 15rem;
+  position: fixed;
 }
 
 #sidepanel img {
@@ -94,39 +97,67 @@ a img {
 }
 
 #sidepanel #slogan {
-    color: #86B8B8;
+    color: #657B83;
+    letter-spacing: 1px;
     margin-top: 1rem;
+    text-align: center;
     text-transform: uppercase;
 }
 
-#sidepanel ul.menu {
-    display: block;
-    margin: 2rem 0;
+#menu {
+  margin: 2rem 0;
+  list-style: none;
 }
 
-#sidepanel ul.menu li {
-  background: none repeat scroll 0 0 #2d5151 !important;
+#menu li {
+  background: none repeat scroll 0 0 #657B83;
   border-radius: 4px 0 0 4px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
-
   font-size: 1rem;
   font-weight: bold;
-  list-style: none outside none;
   margin-bottom: 1px;
   padding: .7rem 0 .7rem 1.5rem;
-  text-decoration: none;
   text-transform: uppercase;
-  width: 100%;
 }
 
-#sidepanel ul.menu li a {
-    color: #F0F0F0;
+#menu a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#menu li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* menu sublevel */
+
+#menu ul {
+  display: none;
+}
+
+#menu li:hover {
+  background-color: #586E75;
+}
+
+#menu li:hover ul {
+  position: fixed; /*TODO: Unfix--this is not an ideal solution*/
+  top: 15.25rem;
+  left: 16rem;
+  width: 15rem;
+  display: block;
+  list-style: none;
+}
+
+#menu ul li {
+  border-radius: 0 4px 4px 0;
 }
 
 #footer {
-  bottom: 1rem;
+  bottom: 1.5rem;
+  margin-left: 1.5rem;
   position: fixed;
-	color:#86B8B8;
+	color:#657B83;
 }
 
 /* legal */
@@ -139,9 +170,9 @@ a img {
 /* img.pretty */
 
 img.pretty {
-    background: #e1e1e1;
-    border: 1px solid #CECECE;
-    border-radius: 4px;
-    margin: .5rem;
-    padding: 1rem;
+  background: white;
+  border: 1px solid #CECECE;
+  border-radius: 4px;
+  margin: .5rem;
+  padding: 1rem;
 }
