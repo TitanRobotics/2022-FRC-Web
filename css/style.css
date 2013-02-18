@@ -102,6 +102,10 @@ a img {
     text-transform: uppercase;
 }
 
+#IEwhat {
+	text-align:center;
+}
+
 #menu {
   margin: 2rem 0;
   list-style: none;

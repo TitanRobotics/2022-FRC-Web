@@ -11,16 +11,19 @@
   <script src="./javascript/jquery-1.7.2.min.js"></script>
   <script src="./javascript/lightbox.js"></script>
   <script src="./javascript/image-set-builder.js"></script>
-  <script src="./javascript/Browserdetect.js"></script>
-  <script>
-  	if(BrowserDetect.browser == "Explorer") window.location = "IEpage.html"; 	
-  </script>
 </head>
 
 <body>
   <div id="container">
-  
-    <div id="sidepanel">
+  	<div id="IEwhat">
+  		<h1>It appears you are trying to open this page with Internet explorer.<br>
+  			This results in the glitchy soup below.<br>
+  			If you wish to view our webpage, we would recommend using
+  			<a href="http://www.mozilla.org">Firefox</a>, <a href="http://chrome.google.com">Chrome</a>, or even <a href="http://www.opera.com">Opera</a>.<br>
+  			<img src="image/IE.png"
+  			</h1>
+  	</div>
+  	<div id="sidepanel">
         <a href="#whoweare"><img src="./image/TitanRobotics2022.png" alt="Titan Robotics 2022"></a>
         <p id="slogan">Titan Robotics 2022</p>
         
@@ -321,6 +324,6 @@
       </div>
     </div>
       
-  </div>
+	</div>
 </body>
 </html>
