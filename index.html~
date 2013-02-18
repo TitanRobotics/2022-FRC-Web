@@ -24,23 +24,22 @@
           <li>
             <a href="#whoweare">
               Who we are
-              </a>
               <ul>
                 <a href="#abriefhistory"><li>A brief history</li></a>
                 <a href="#2009submissionchairman"><li>2009 submission for the Chairman's Award</li></a>
                 <a href="#quotesformermembers"><li>Quotes from former members</li></a>
               </ul>
-          </li>
 
+            </a>
+          </li>
           <a href="#whatwedo"><li>What we do</li></a>
           <a href="#sponsors"><li>Sponsors</li></a>
           <li>
-          	<a href="#media">
-          		Media
-          		<!--<ul>
-          			<a href="#photos"><li>Image Gallery</li></a>
-          			<a href="#videos"><li>Videos</li></a>
-          		</ul>-->
+          	<a href="#media">Media</a>
+          		<ul>
+          			<a href="#photos">Image Gallery</a>
+          			<a href="#videos">Videos</a>
+          		</ul>
           	</a>
           </li>
         </ul>
@@ -298,7 +297,6 @@
         </div>
         
         <div id="media" name="media">
-        	<a name="media"></a>
         	<a name="photos"><h1>Image Gallery</h1></a>
         	<div id="intersession2013"></div>
         	<div id="misc"></div>

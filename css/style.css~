@@ -158,11 +158,6 @@ a img {
 	color:#657B83;
 }
 
-/* fixin that lightbox not overlaying the videos */
-iframe {
-	z-index: 5;
-}
-
 /* legal */
 
 #sponsorlogos {
