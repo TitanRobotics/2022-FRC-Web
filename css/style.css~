@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Author: Ethan Bian */
+
+/* Comment:  */
+/* Compatibility with old browsers will not be actively sought since (1), our target audience at large will not be using them, (2), it makes code messy, (3), it takes more time, (4), old browsers need to die. */
+
+body {
+	background-color:#EEE8D5;
+  /*background-image: url(../image/texture/bedge_grunge_transparent.png);
+  background-repeat:repeat;*/
+
+	color:#586E75;
+  font-family: "Cambria", serif;
+  font-size: 62.5%;
+}
+
+a:link {color:#395151;}     /* unvisited link */
+a:visited {color:#334949;}  /* visited link */
+
+/* margin, padding */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1rem 0;
+}
+
+/* font sizes */
+
+h1 {
+  color: #657B83;
+  font-size: 1.8rem;
+  background-color: #EEE8D5;
+  margin: 2rem 0 2rem -4rem;
+  padding: 2rem 0 2rem 4rem;
+  
+  border-radius: 0 4px 4px 0;
+}
+h2 {
+  font-size: 1.4rem;
+}
+h3 {
+  font-size: 1.2rem;
+}
+h4 {
+  font-size: 1.0rem;
+}
+h5 {font-size: 0.9rem;}
+h6 {font-size: 0.8rem;}
+
+a img {
+  border: 0; /* because IE 9 is still stupid */
+}
+
+#container {
+  font-size: 0.9rem;
+}
+
+#body {
+  margin-bottom: 4rem;
+	background: #fdf6e3;
+  border-radius: 0 0 0 4px;
+  /*box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);*/
+  
+  margin-top: -3rem;
+  margin-left: 16rem;
+}
+
+#content {
+  padding: 1rem 4rem;
+  max-width: 50rem;
+}
+
+/* sidepanel */
+
+#sidepanel {
+  float: left;
+  margin-top: 4rem;
+  margin-left: 1rem;
+  text-align: left;
+  width: 15rem;
+  position: fixed;
+}
+
+#sidepanel img {
+  display: block;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sidepanel #slogan {
+    color: #657B83;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#menu {
+  margin: 2rem 0;
+  list-style: none;
+}
+
+#menu li {
+  background: none repeat scroll 0 0 #657B83;
+  border-radius: 4px 0 0 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1px;
+  padding: .7rem 0 .7rem 1.5rem;
+  text-transform: uppercase;
+}
+
+#menu a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#menu li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* menu sublevel */
+
+#menu ul {
+  display: none;
+}
+
+#menu li:hover {
+  background-color: #586E75;
+}
+
+#menu li:hover ul {
+  position: fixed; /*TODO: Unfix--this is not an ideal solution*/
+  top: 15.25rem;
+  left: 16rem;
+  width: 15rem;
+  display: block;
+  list-style: none;
+}
+
+#menu ul li {
+  border-radius: 0 4px 4px 0;
+}
+
+#footer {
+  bottom: 1.5rem;
+  margin-left: 1.5rem;
+  position: fixed;
+	color:#657B83;
+}
+
+/* legal */
+
+#sponsorlogos {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+/* img.pretty */
+
+img.pretty {
+  background: white;
+  border: 1px solid #CECECE;
+  border-radius: 4px;
+  margin: .5rem;
+  padding: 1rem;
+}
