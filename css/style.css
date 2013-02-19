@@ -7,10 +7,11 @@
 /* Compatibility with old browsers will not be actively sought since (1), our target audience at large will not be using them, (2), it makes code messy, (3), it takes more time, (4), old browsers need to die. */
 
 body {
-	
+	background-color:#EEE8D5;
   /*background-image: url(../image/texture/bedge_grunge_transparent.png);
   background-repeat:repeat;*/
 
+	color:#586E75;
   font-family: "Cambria", serif;
   font-size: 62.5%;
 }
@@ -58,8 +59,6 @@ a img {
 
 #container {
   font-size: 0.9rem;
-  background-color:#EEE8D5;
-  color:#586E75;
 }
 
 #body {
@@ -68,7 +67,7 @@ a img {
   border-radius: 0 0 0 4px;
   /*box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);*/
   
-  margin-top: -4rem;
+  margin-top: -3rem;
   margin-left: 16rem;
 }
 
@@ -103,28 +102,6 @@ a img {
     text-transform: uppercase;
 }
 
-#IEwhat{
-	text-align: center;
-	background-color: #6B7C8D;
-}
-
-#IEwhat h1{
-	color: white
-	text-align: center;
-}
-
-#note{
-	background-color: #6B7C8D;
-	font-size: 1.2rem;
-	text-align: center;
-	color: white;
-}
-
-#IEwhat{
-	display: none;
-	text-align: center;
-	background-color: #6B7C8D;
-}
 #menu {
   margin: 2rem 0;
   list-style: none;
@@ -179,11 +156,6 @@ a img {
   margin-left: 1.5rem;
   position: fixed;
 	color:#657B83;
-}
-
-/* fixin that lightbox not overlaying the videos */
-iframe {
-	z-index: 5;
 }
 
 /* legal */
